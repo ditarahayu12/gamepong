@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; //tambahan ganti scene
 
 public class TimerScript : MonoBehaviour
 {
@@ -22,11 +23,12 @@ public class TimerScript : MonoBehaviour
 
     IEnumerator hitungmundur(){
     	while(counter > 0){
-    	yield return new WaitForSeconds(1);
+    	yield return new WaitForSeconds(1); //waktuberkurang 1 detik sampai lebih 0 sampai abis ganti game over
     	counter -= 1;
     	timerText.text = counter.ToString();
   		}
 
-  		timerText.text = "GAME OVER";
+  		//timerText.text = "GAME OVER"; sebelumnya ini terus diubah ke scene
+  		SceneManager.LoadScene("GameOverScene");
     }
 }

@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/latihanpong.unity
+    guid: ac16dc665727b3d4fb10078bda3bfe55
+  - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: b2bd38ef2d133de42a290547c7aa33f3
+  - enabled: 1
+    path: Assets/Scenes/GameOverScene.unity
+    guid: ca57a643c2d930d47941a5e4863ffbe5
   m_configObjects: {}
