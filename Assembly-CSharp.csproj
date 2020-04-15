@@ -53,13 +53,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ballmovement.cs" />
-     <Compile Include="Assets\EndingScript.cs" />
-     <Compile Include="Assets\PlayScript.cs" />
-     <Compile Include="Assets\raketkanan.cs" />
-     <Compile Include="Assets\raketkiri.cs" />
-     <Compile Include="Assets\ScoringScript.cs" />
-     <Compile Include="Assets\TimerScript.cs" />
+     <Compile Include="Assets\Script\ballmovement.cs" />
+     <Compile Include="Assets\Script\EndingScript.cs" />
+     <Compile Include="Assets\Script\PlayScript.cs" />
+     <Compile Include="Assets\Script\raketkanan.cs" />
+     <Compile Include="Assets\Script\raketkiri.cs" />
+     <Compile Include="Assets\Script\ScoringScript.cs" />
+     <Compile Include="Assets\Script\TimerScript.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
