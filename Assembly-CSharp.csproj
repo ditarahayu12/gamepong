@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\bgMusicScript.cs" />
      <Compile Include="Assets\Script\ballmovement.cs" />
      <Compile Include="Assets\Script\EndingScript.cs" />
      <Compile Include="Assets\Script\PlayScript.cs" />
